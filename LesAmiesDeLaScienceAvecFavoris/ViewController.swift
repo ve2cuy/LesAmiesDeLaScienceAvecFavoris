@@ -74,7 +74,6 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         
         let selection = (CVSavant.indexPath(for: sender as! UICollectionViewCell)! as NSIndexPath).row
         
-        
         print("Exécution de la méthode: prepareForSegue pour la cellule numéro: \(selection)\n")
         
         // 2 - Créer un objet pointant sur l'instance de classe de la destination

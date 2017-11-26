@@ -31,6 +31,8 @@
 		B5BD63E81FCB3549004305B6 /* amisDelaScience.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5BD63E71FCB3549004305B6 /* amisDelaScience.plist */; };
 		B5BD63EC1FCB35EC004305B6 /* VCDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63EA1FCB35EC004305B6 /* VCDetails.swift */; };
 		B5BD63EE1FCB3680004305B6 /* CVCSavant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63ED1FCB3680004305B6 /* CVCSavant.swift */; };
+		B5BD63F01FCB4116004305B6 /* Savant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63EF1FCB4116004305B6 /* Savant.swift */; };
+		B5BD63F21FCB414C004305B6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B5BD63F11FCB414C004305B6 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		B5BD63E71FCB3549004305B6 /* amisDelaScience.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = amisDelaScience.plist; sourceTree = "<group>"; };
 		B5BD63EA1FCB35EC004305B6 /* VCDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCDetails.swift; sourceTree = "<group>"; };
 		B5BD63ED1FCB3680004305B6 /* CVCSavant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCSavant.swift; sourceTree = "<group>"; };
+		B5BD63EF1FCB4116004305B6 /* Savant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savant.swift; sourceTree = "<group>"; };
+		B5BD63F11FCB414C004305B6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		B5BD63B31FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris */ = {
 			isa = PBXGroup;
 			children = (
+				B5BD63F11FCB414C004305B6 /* Podfile */,
 				B5BD63ED1FCB3680004305B6 /* CVCSavant.swift */,
 				B5BD63EA1FCB35EC004305B6 /* VCDetails.swift */,
 				B5BD63E71FCB3549004305B6 /* amisDelaScience.plist */,
@@ -102,6 +107,7 @@
 				B5BD63BB1FCB3477004305B6 /* Assets.xcassets */,
 				B5BD63BD1FCB3477004305B6 /* LaunchScreen.storyboard */,
 				B5BD63C01FCB3477004305B6 /* Info.plist */,
+				B5BD63EF1FCB4116004305B6 /* Savant.swift */,
 			);
 			path = LesAmiesDeLaScienceAvecFavoris;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 				B5BD63E01FCB353E004305B6 /* Jean Perrin.jpg in Resources */,
 				B5BD63E41FCB353E004305B6 /* Steve Jobs.jpg in Resources */,
 				B5BD63BC1FCB3477004305B6 /* Assets.xcassets in Resources */,
+				B5BD63F21FCB414C004305B6 /* Podfile in Resources */,
 				B5BD63BA1FCB3477004305B6 /* Main.storyboard in Resources */,
 				B5BD63DC1FCB353E004305B6 /* Daniel Fahrenheit.jpg in Resources */,
 				B5BD63E61FCB353E004305B6 /* Blaise Pascal.jpg in Resources */,
@@ -221,6 +228,7 @@
 				B5BD63B71FCB3477004305B6 /* ViewController.swift in Sources */,
 				B5BD63EC1FCB35EC004305B6 /* VCDetails.swift in Sources */,
 				B5BD63B51FCB3477004305B6 /* AppDelegate.swift in Sources */,
+				B5BD63F01FCB4116004305B6 /* Savant.swift in Sources */,
 				B5BD63EE1FCB3680004305B6 /* CVCSavant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
