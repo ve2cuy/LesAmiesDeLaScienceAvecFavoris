@@ -20,7 +20,7 @@ class Savant: Object {
 
     // Étant donné que les info des savants sont dans un dictionnaire,
     // ce constructeur permet de créer une instance de Savant à partir d'un dictionnaire.
-    convenience init(source:Dictionay<String, String>) {
+    convenience init(source:Dictionary<String, String>) {
         self.init()
         // self.uid = UUID().uuidString
         self.nom = source["nom"] ?? "Erreur sur le nom!"
@@ -30,11 +30,18 @@ class Savant: Object {
     }
     
     // Méthodes de classe pour la mise à jour des données dans la BD.
-    static func ajouter(unSavant: Savant) {
+    // Exemple d'un prédicat: .filter("vegan = true AND ANY lines.canteens.name = %@", selectedCanteenType.rawValue)
+    static func ajouter(unSavant: Savant) -> Bool {
         let realm = try! Realm()
+        // Vérifier si le savant est déjà présent dans la liste des favoris
+        if realm.objects(Savant.self).filter("nom = %@" , unSavant.nom).count != 0
+        { return false }
+        
+        // Ajouter aux favoris
         try! realm.write {
             realm.add(unSavant)
         }
+        return true
     } // ajouter
 
     static func lire() ->  Results<Savant> {
@@ -44,11 +51,23 @@ class Savant: Object {
     
     static func modifier(unSavant: Savant) {
         let realm = try! Realm()
+        try! realm.write {
+            unSavant.nom = "Youpi"
+            unSavant.texte = "Abc Def"
+         }
     } // modifier
     
-    static func effacer(unSavant: Savant) {
+    static func effacer(nomSavant: String) -> Bool {
         let realm = try! Realm()
-    } // effacer
+        // Vérifier si le savant est déjà présent dans la liste des favoris
+        let resultat = realm.objects(Savant.self).filter("nom = %@" , nomSavant)
+        guard resultat.count != 0 else { return false}
+
+        try! realm.write {
+            realm.delete(resultat[0]) // Effacer le premier trouvé - il ne devrait y en avoir qu'un seul!
+        }
+        return true
+   } // effacer
 
 } // class Tache
 

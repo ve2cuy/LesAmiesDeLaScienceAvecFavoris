@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A346CB93ECECF89EA1A5DD72 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */; };
+		B59F55131FCB4E3200D00E0C /* TBVFavoris.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */; };
 		B5BD63B51FCB3477004305B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63B41FCB3477004305B6 /* AppDelegate.swift */; };
 		B5BD63B71FCB3477004305B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63B61FCB3477004305B6 /* ViewController.swift */; };
 		B5BD63BA1FCB3477004305B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD63B81FCB3477004305B6 /* Main.storyboard */; };
@@ -36,6 +38,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A638B194AB8E4D0E0BAAE580 /* Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig"; path = "Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig"; sourceTree = "<group>"; };
+		A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LesAmiesDeLaScienceAvecFavoris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBVFavoris.swift; sourceTree = "<group>"; };
 		B5BD63B11FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LesAmiesDeLaScienceAvecFavoris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BD63B41FCB3477004305B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5BD63B61FCB3477004305B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +69,7 @@
 		B5BD63ED1FCB3680004305B6 /* CVCSavant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCSavant.swift; sourceTree = "<group>"; };
 		B5BD63EF1FCB4116004305B6 /* Savant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Savant.swift; sourceTree = "<group>"; };
 		B5BD63F11FCB414C004305B6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		E469502B46BC0AECF56B94CA /* Pods-LesAmiesDeLaScienceAvecFavoris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LesAmiesDeLaScienceAvecFavoris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A346CB93ECECF89EA1A5DD72 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +89,8 @@
 			children = (
 				B5BD63B31FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris */,
 				B5BD63B21FCB3477004305B6 /* Products */,
+				BCAC8071BB2C19CDEF5085A9 /* Pods */,
+				D01D098C9CE400C6456AA9C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +117,7 @@
 				B5BD63BD1FCB3477004305B6 /* LaunchScreen.storyboard */,
 				B5BD63C01FCB3477004305B6 /* Info.plist */,
 				B5BD63EF1FCB4116004305B6 /* Savant.swift */,
+				B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */,
 			);
 			path = LesAmiesDeLaScienceAvecFavoris;
 			sourceTree = "<group>";
@@ -135,6 +145,23 @@
 			path = "Photos - Les amis de la science";
 			sourceTree = "<group>";
 		};
+		BCAC8071BB2C19CDEF5085A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E469502B46BC0AECF56B94CA /* Pods-LesAmiesDeLaScienceAvecFavoris.debug.xcconfig */,
+				A638B194AB8E4D0E0BAAE580 /* Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D01D098C9CE400C6456AA9C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5BD63C31FCB3477004305B6 /* Build configuration list for PBXNativeTarget "LesAmiesDeLaScienceAvecFavoris" */;
 			buildPhases = (
+				5C93E1AD90F34BA24C3BB4B7 /* [CP] Check Pods Manifest.lock */,
 				B5BD63AD1FCB3477004305B6 /* Sources */,
 				B5BD63AE1FCB3477004305B6 /* Frameworks */,
 				B5BD63AF1FCB3477004305B6 /* Resources */,
+				642034246EB15960D7C94A68 /* [CP] Embed Pods Frameworks */,
+				2A9899003CDE41A1501B7141 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +250,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A9899003CDE41A1501B7141 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C93E1AD90F34BA24C3BB4B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LesAmiesDeLaScienceAvecFavoris-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		642034246EB15960D7C94A68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5BD63AD1FCB3477004305B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -228,6 +314,7 @@
 				B5BD63B71FCB3477004305B6 /* ViewController.swift in Sources */,
 				B5BD63EC1FCB35EC004305B6 /* VCDetails.swift in Sources */,
 				B5BD63B51FCB3477004305B6 /* AppDelegate.swift in Sources */,
+				B59F55131FCB4E3200D00E0C /* TBVFavoris.swift in Sources */,
 				B5BD63F01FCB4116004305B6 /* Savant.swift in Sources */,
 				B5BD63EE1FCB3680004305B6 /* CVCSavant.swift in Sources */,
 			);
@@ -364,6 +451,7 @@
 		};
 		B5BD63C41FCB3477004305B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E469502B46BC0AECF56B94CA /* Pods-LesAmiesDeLaScienceAvecFavoris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,6 +467,7 @@
 		};
 		B5BD63C51FCB3477004305B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A638B194AB8E4D0E0BAAE580 /* Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

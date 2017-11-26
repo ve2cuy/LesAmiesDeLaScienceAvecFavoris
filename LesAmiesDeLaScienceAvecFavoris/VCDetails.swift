@@ -14,6 +14,15 @@ class VCDetails: UIViewController {
     @IBOutlet weak var savantImage: UIImageView!
     @IBOutlet weak var savantTexte: UITextView!
     
+    @IBAction func ajouterAuxFavoris(_ sender: Any) {
+        if Savant.ajouter(unSavant: Savant(source: informationsDuSavantCourant))  {
+            print(Savant.lire())
+        } else
+        {
+            print("===> Le savant \(savantNom.text!) est déja dans la liste des favoris")
+        }
+    } // ajouterAuxFavoris
+    
     @IBAction func retourALaListe(_ sender: AnyObject) {
  self.dismiss(animated: true, completion:nil)
     
@@ -25,6 +34,7 @@ class VCDetails: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("# Nous avons reçu les données suivantes:\n\(informationsDuSavantCourant)\n")
+ 
         
         savantNom.text      = informationsDuSavantCourant["nom"]!
         savantImage.image   =  UIImage(named: informationsDuSavantCourant["photo"]!)
