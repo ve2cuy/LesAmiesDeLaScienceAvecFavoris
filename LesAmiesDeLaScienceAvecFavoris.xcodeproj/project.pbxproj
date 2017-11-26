@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A346CB93ECECF89EA1A5DD72 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */; };
 		B59F55131FCB4E3200D00E0C /* TBVFavoris.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */; };
+		B59F55181FCB5C8400D00E0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B59F55171FCB5C8400D00E0C /* README.md */; };
 		B5BD63B51FCB3477004305B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63B41FCB3477004305B6 /* AppDelegate.swift */; };
 		B5BD63B71FCB3477004305B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63B61FCB3477004305B6 /* ViewController.swift */; };
 		B5BD63BA1FCB3477004305B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5BD63B81FCB3477004305B6 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		A638B194AB8E4D0E0BAAE580 /* Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig"; path = "Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig"; sourceTree = "<group>"; };
 		A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LesAmiesDeLaScienceAvecFavoris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBVFavoris.swift; sourceTree = "<group>"; };
+		B59F55171FCB5C8400D00E0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B5BD63B11FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LesAmiesDeLaScienceAvecFavoris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5BD63B41FCB3477004305B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5BD63B61FCB3477004305B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		B5BD63B31FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris */ = {
 			isa = PBXGroup;
 			children = (
+				B59F55171FCB5C8400D00E0C /* README.md */,
 				B59F55141FCB571D00D00E0C /* Ressources */,
 				B5BD63F11FCB414C004305B6 /* Podfile */,
 				B5BD63B81FCB3477004305B6 /* Main.storyboard */,
@@ -269,6 +272,7 @@
 				B5BD63E11FCB353E004305B6 /* Karl Guthe Jansky.jpg in Resources */,
 				B5BD63E51FCB353E004305B6 /* Hertz.jpg in Resources */,
 				B5BD63DE1FCB353E004305B6 /* maxwell.jpg in Resources */,
+				B59F55181FCB5C8400D00E0C /* README.md in Resources */,
 				B5BD63DA1FCB353E004305B6 /* Marie Curie.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
