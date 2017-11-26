@@ -84,6 +84,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B59F55141FCB571D00D00E0C /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				B59F55161FCB576000D00E0C /* Les données */,
+				B59F55151FCB573200D00E0C /* Les Classes */,
+				B5BD63C61FCB353D004305B6 /* Photos - Les amis de la science */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		B59F55151FCB573200D00E0C /* Les Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD63EF1FCB4116004305B6 /* Savant.swift */,
+				B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */,
+				B5BD63B41FCB3477004305B6 /* AppDelegate.swift */,
+				B5BD63B61FCB3477004305B6 /* ViewController.swift */,
+				B5BD63ED1FCB3680004305B6 /* CVCSavant.swift */,
+				B5BD63EA1FCB35EC004305B6 /* VCDetails.swift */,
+			);
+			path = "Les Classes";
+			sourceTree = "<group>";
+		};
+		B59F55161FCB576000D00E0C /* Les données */ = {
+			isa = PBXGroup;
+			children = (
+				B5BD63E71FCB3549004305B6 /* amisDelaScience.plist */,
+			);
+			name = "Les données";
+			path = "Les données";
+			sourceTree = "<group>";
+		};
 		B5BD63A81FCB3477004305B6 = {
 			isa = PBXGroup;
 			children = (
@@ -105,19 +137,12 @@
 		B5BD63B31FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris */ = {
 			isa = PBXGroup;
 			children = (
+				B59F55141FCB571D00D00E0C /* Ressources */,
 				B5BD63F11FCB414C004305B6 /* Podfile */,
-				B5BD63ED1FCB3680004305B6 /* CVCSavant.swift */,
-				B5BD63EA1FCB35EC004305B6 /* VCDetails.swift */,
-				B5BD63E71FCB3549004305B6 /* amisDelaScience.plist */,
-				B5BD63C61FCB353D004305B6 /* Photos - Les amis de la science */,
-				B5BD63B41FCB3477004305B6 /* AppDelegate.swift */,
-				B5BD63B61FCB3477004305B6 /* ViewController.swift */,
 				B5BD63B81FCB3477004305B6 /* Main.storyboard */,
 				B5BD63BB1FCB3477004305B6 /* Assets.xcassets */,
 				B5BD63BD1FCB3477004305B6 /* LaunchScreen.storyboard */,
 				B5BD63C01FCB3477004305B6 /* Info.plist */,
-				B5BD63EF1FCB4116004305B6 /* Savant.swift */,
-				B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */,
 			);
 			path = LesAmiesDeLaScienceAvecFavoris;
 			sourceTree = "<group>";
