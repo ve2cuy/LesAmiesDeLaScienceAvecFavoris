@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>nom</key>
+		<string>Albert Einstein</string>
+		<key>photo</key>
+		<string>Albert Einstein.jpg</string>
+		<key>texte</key>
+		<string>Il publie sa théorie de la relativité restreinte en 1905, et une théorie de la gravitation dite relativité générale en 1915.</string>
+		<key>naissance</key>
+		<string>1879</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Albert Jacquard</string>
+		<key>photo</key>
+		<string>Albert Jacquard.jpg</string>
+		<key>texte</key>
+		<string>Il est connu pour ses engagements citoyens, parmi lesquels la défense du concept de la décroissance soutenable, le soutien aux mouvements du logiciel libre, à la langue internationale espéranto, aux laissés-pour-compte et à l&apos;environnement.</string>
+		<key>naissance</key>
+		<string>1925</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Blaise Pascal</string>
+		<key>photo</key>
+		<string>Blaise Pascal.jpg</string>
+		<key>texte</key>
+		<string>Le développement de la théorie des probabilités est la contribution de Pascal la plus importante en mathématiques</string>
+		<key>naissance</key>
+		<string>1623</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Ferdinand Braun</string>
+		<key>photo</key>
+		<string>Braun.jpg</string>
+		<key>texte</key>
+		<string>Le prix Nobel de physique de 1909 lui a été attribué, avec Guglielmo Marconi, pour ses travaux sur la télégraphie sans fil</string>
+		<key>naissance</key>
+		<string>1850</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Christian Huygens</string>
+		<key>photo</key>
+		<string>Christian Huygens.jpg</string>
+		<key>texte</key>
+		<string>Huygens est généralement crédité pour son rôle fondamental dans le développement du calcul moderne.</string>
+		<key>naissance</key>
+		<string>1629</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Daniel Fahrenheit</string>
+		<key>photo</key>
+		<string>Daniel Fahrenheit.jpg</string>
+		<key>texte</key>
+		<string>L&apos;échelle de Farenheit était largement utilisé en Europe jusqu&apos;à la Révolution française. Elle fut graduellement remplacée par l&apos;échelle Celsius mais est encore souvent utilisée dans les pays anglo-saxons, principalement aux États-Unis où elle est l&apos;échelle officielle.</string>
+		<key>naissance</key>
+		<string>1686</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Dennis Ritchie</string>
+		<key>photo</key>
+		<string>Dennis Ritchie.jpg</string>
+		<key>texte</key>
+		<string>Dennis Ritchie est connu comme étant le créateur du langage C, un développeur clé du système d&apos;exploitation Unix, et le coauteur du livre The C Programming Language.</string>
+		<key>naissance</key>
+		<string>1941</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Galileo Galilei</string>
+		<key>photo</key>
+		<string>Galilée.jpg</string>
+		<key>texte</key>
+		<string>Parmi ses réalisations techniques, il a inventé la lunette astronomique, perfectionnement de la découverte hollandaise d&apos;une lunette d&apos;approche, pour procéder à des observations rapides et précoces qui ont bouleversé les fondements de la discipline astronomique.</string>
+		<key>naissance</key>
+		<string>1564</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Henri Becquerel</string>
+		<key>photo</key>
+		<string>Henri Becquerel.jpg</string>
+		<key>texte</key>
+		<string>En 1896, Becquerel découvrit la radioactivité par accident, alors qu&apos;il faisait des recherches sur la fluorescence des sels d&apos;uranium</string>
+		<key>naissance</key>
+		<string>1852</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Heinrich Hertz</string>
+		<key>photo</key>
+		<string>Hertz.jpg</string>
+		<key>texte</key>
+		<string>Heinrich Rudolf Hertz est un ingénieur et physicien allemand renommé pour avoir découvert les ondes hertziennes auxquelles il a donné son nom.</string>
+		<key>naissance</key>
+		<string>1857</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Jean Perrin</string>
+		<key>photo</key>
+		<string>Jean Perrin.jpg</string>
+		<key>texte</key>
+		<string>Il a reçu le prix Nobel de physique de 1926 pour ses travaux sur la discontinuité de la matière, et particulièrement pour sa découverte de l&apos;équilibre de sédimentation.</string>
+		<key>naissance</key>
+		<string>1870</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Karl Guthe Jansky</string>
+		<key>photo</key>
+		<string>Karl Guthe Jansky.jpg</string>
+		<key>texte</key>
+		<string>Il découvrit en 1932 que notre Galaxie émettait des ondes radio, marquant ainsi la naissance de la radioastronomie.</string>
+		<key>naissance</key>
+		<string>1905</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Marie Curie</string>
+		<key>photo</key>
+		<string>Marie Curie.jpg</string>
+		<key>texte</key>
+		<string>En 1911, elle obtient le prix Nobel de chimie pour ses travaux sur le polonium et le radium.</string>
+		<key>naissance</key>
+		<string>1900</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>James Clerk Maxwell</string>
+		<key>photo</key>
+		<string>maxwell.jpg</string>
+		<key>texte</key>
+		<string>Il est principalement connu pour avoir unifié en un seul ensemble d&apos;équations, les équations de Maxwell, l&apos;électricité, le magnétisme et l&apos;induction, en incluant une importante modification du théorème d&apos;Ampère.</string>
+		<key>naissance</key>
+		<string>1831</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Steve Jobs</string>
+		<key>photo</key>
+		<string>Steve Jobs.jpg</string>
+		<key>texte</key>
+		<string>Steve Jobs est un entrepreneur et inventeur américain, souvent qualifié de visionnaire, et une figure majeure de l&apos;électronique grand public, notamment pionnier de l&apos;avènement de l&apos;ordinateur personnel, du baladeur numérique, du smartphone et de la tablette tactile. </string>
+		<key>naissance</key>
+		<string>1955</string>
+	</dict>
+	<dict>
+		<key>nom</key>
+		<string>Wilhelm Conrad Rontgen</string>
+		<key>photo</key>
+		<string>Wilhelm Conrad Rontgen.jpg</string>
+		<key>texte</key>
+		<string>Il a découvert les rayons X, ce qui lui a valu de recevoir le premier prix Nobel de physique en 1901.</string>
+		<key>naissance</key>
+		<string>1845</string>
+	</dict>
+</array>
+</plist>
