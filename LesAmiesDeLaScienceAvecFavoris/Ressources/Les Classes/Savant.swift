@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 // import Realm // Need to add import if you override default initializer!
 
-/// ATTENTION, realm n'aime pas les caractères accentués dans les noms de classes et de propriétés
+// ATTENTION, realm n'aime pas les caractères accentués dans les noms de classes et de propriétés
 // NOTE: Pour rendre une classe compatible avec realm il faut la définir à partir de la classe realm: 'Object'.
 class Savant: Object, Codable {
     //NOTE: les déclarations débutants par "@objc dynamic" seront ajoutées à la BD
@@ -18,9 +18,9 @@ class Savant: Object, Codable {
     @objc dynamic var photo:String?
     @objc dynamic var texte:String?
     @objc dynamic var naissance:String?
-    /// Pour les nombres, pas d'optionnelles:
-    @objc dynamic var _PI:Float = 3.141592
-    var extra = "Ce champ ne sera pas sauvegardé dans la BD - il n'a pas : '@objc dynamic' dans sa déclaration."
+    /// Pour les nombres, pas d'optionnelles 'codable' pour l'instant:
+    /// @objc dynamic var _PI:Float?
+    // var extra:String?  // "Ce champ ne sera pas sauvegardé dans la BD - il n'a pas : '@objc dynamic' dans sa déclaration."
 
     // Étant donné que les info des savants sont dans un dictionnaire,
     // Ce constructeur permet de créer une instance de Savant à partir d'un dictionnaire.

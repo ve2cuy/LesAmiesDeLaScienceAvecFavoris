@@ -15,7 +15,8 @@ class VCDetails: UIViewController {
     @IBOutlet weak var savantTexte: UITextView!
     
     @IBAction func ajouterAuxFavoris(_ sender: Any) {
-        if Savant.ajouter(unSavant: Savant(source: informationsDuSavantCourant))  {
+        print(informationsDuSavantCourant)
+        if Savant.ajouter(unSavant: informationsDuSavantCourant)  {
             print(Savant.lire())
         } else
         {

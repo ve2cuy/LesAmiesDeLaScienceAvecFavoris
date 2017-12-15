@@ -29,8 +29,8 @@ class ViewController: UIViewController, UICollectionViewDataSource {
  
      */
     func obtenirLesDonnées(){
-        let uneURL = Bundle.main.url(forResource: "amisDelaScience", withExtension: "json")!
-        if let _data = NSData(contentsOf: uneURL) as Data? {
+        let uneURL = Bundle.main.url(forResource: "amisDeLaScience", withExtension: "json")
+        if let _data = NSData(contentsOf: uneURL!) as Data? {
             // Note: Class.self veut dire "de type Class"
             lesAmisDeLaScienceData = try! JSONDecoder().decode(Array<Savant>.self, from: _data)
             print(lesAmisDeLaScienceData)
@@ -75,8 +75,10 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         let calendar = NSCalendar.current
         let components = calendar.dateComponents([.year], from: date)
         let anneeCourante = components.year
-        let anneeNaissance = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row].naissance
-        let age = " - \(anneeCourante! - Int(anneeNaissance!)!) ans"
+        let stringAnneeNaissance = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row].naissance ?? "" // naissance non dispobible
+        let anneeNaissance = Int(stringAnneeNaissance) ?? anneeCourante
+        
+        let age = " - \(anneeCourante! - anneeNaissance!) ans"
         
         celluleCourante.savantNom.text = lesAmisDeLaScienceData[indexPath.row].nom! + age
         celluleCourante.savantTexte.text = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row].texte!

@@ -7,3 +7,5 @@
 * pod repo update
 * pod install
 
+//   Dernier de la liste "date de naissance manquante":  "1845"
+
