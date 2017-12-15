@@ -7,19 +7,24 @@
 //
 
 import Foundation
-
 import RealmSwift
-import Realm // Need to add import if you override default initializer!
+// import Realm // Need to add import if you override default initializer!
 
 /// ATTENTION, realm n'aime pas les caractères accentués dans les noms de classes et de propriétés
-class Savant: Object {
-    @objc dynamic var nom       = ""
-    @objc dynamic var photo     = ""
-    @objc dynamic var texte     = ""
-    @objc dynamic var naissance = ""
+// NOTE: Pour rendre une classe compatible avec realm il faut la définir à partir de la classe realm: 'Object'.
+class Savant: Object, Codable {
+    //NOTE: les déclarations débutants par "@objc dynamic" seront ajoutées à la BD
+    @objc dynamic var nom:String?
+    @objc dynamic var photo:String?
+    @objc dynamic var texte:String?
+    @objc dynamic var naissance:String?
+    /// Pour les nombres, pas d'optionnelles:
+    @objc dynamic var _PI:Float = 3.141592
+    var extra = "Ce champ ne sera pas sauvegardé dans la BD - il n'a pas : '@objc dynamic' dans sa déclaration."
 
     // Étant donné que les info des savants sont dans un dictionnaire,
-    // ce constructeur permet de créer une instance de Savant à partir d'un dictionnaire.
+    // Ce constructeur permet de créer une instance de Savant à partir d'un dictionnaire.
+    
     convenience init(source:Dictionary<String, String>) {
         self.init()
         // self.uid = UUID().uuidString
@@ -34,7 +39,7 @@ class Savant: Object {
     static func ajouter(unSavant: Savant) -> Bool {
         let realm = try! Realm()
         // Vérifier si le savant est déjà présent dans la liste des favoris
-        if realm.objects(Savant.self).filter("nom = %@" , unSavant.nom).count != 0
+        if realm.objects(Savant.self).filter("nom = %@" , unSavant.nom!).count != 0
         { return false }
         
         // Ajouter aux favoris
