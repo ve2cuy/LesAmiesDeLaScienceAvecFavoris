@@ -14,16 +14,35 @@ class ViewController: UIViewController, UICollectionViewDataSource {
     
     @IBOutlet weak var collectionDeSavants: UICollectionView!
     
-    var lesAmisDeLaScienceData:[Dictionary<String,String>] = []
+    var lesAmisDeLaScienceData:[Savant] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Charger les données
-        let pathFichierPlist = Bundle.main.path(forResource: "amisDelaScience", ofType: "plist")!
-        lesAmisDeLaScienceData = NSArray(contentsOfFile: pathFichierPlist) as! Array
+        obtenirLesDonnées()
+//        let pathFichierPlist = Bundle.main.path(forResource: "amisDelaScience", ofType: "plist")!
+//        lesAmisDeLaScienceData = NSArray(contentsOfFile: pathFichierPlist) as! Array
     }
     
+    /**
+ 
+     */
+    func obtenirLesDonnées(){
+        let uneURL = Bundle.main.url(forResource: "amisDelaScience", withExtension: "json")!
+        if let _data = NSData(contentsOf: uneURL) as Data? {
+            // Note: Class.self veut dire "de type Class"
+            lesAmisDeLaScienceData = try! JSONDecoder().decode(Array<Savant>.self, from: _data)
+            print(lesAmisDeLaScienceData)
+            
+            for contenu in lesAmisDeLaScienceData {
+                // Note: ?? est le 'nil-coalescing operator'
+                let nom = contenu.nom ?? "Erreur: Nom non disponible"
+                let texte = contenu.texte  ?? "Erreur: Texte non disponible"
+                print ("\(nom) -> Réalisations:\n\t \(texte)\n\n")
+            }
+        } // if let
+    } // obtenirLesDonnées()
     
     // MARK: - Les méthodes de protocoles de UICollectionView
     
@@ -56,13 +75,13 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         let calendar = NSCalendar.current
         let components = calendar.dateComponents([.year], from: date)
         let anneeCourante = components.year
-        let anneeNaissance = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row]["naissance"]!
-        let age = " - \(anneeCourante! - Int(anneeNaissance)!) ans"
+        let anneeNaissance = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row].naissance
+        let age = " - \(anneeCourante! - Int(anneeNaissance!)!) ans"
         
-        celluleCourante.savantNom.text = lesAmisDeLaScienceData[indexPath.row]["nom"]! + age
-        celluleCourante.savantTexte.text = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row]["texte"]!
+        celluleCourante.savantNom.text = lesAmisDeLaScienceData[indexPath.row].nom! + age
+        celluleCourante.savantTexte.text = lesAmisDeLaScienceData[(indexPath as NSIndexPath).row].texte!
         
-        celluleCourante.savantImage.image = UIImage(named: lesAmisDeLaScienceData[(indexPath as NSIndexPath).row]["photo"]!)
+        celluleCourante.savantImage.image = UIImage(named: lesAmisDeLaScienceData[(indexPath as NSIndexPath).row].photo!)
         
         return celluleCourante
     }

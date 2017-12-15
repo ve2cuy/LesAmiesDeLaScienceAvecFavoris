@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A346CB93ECECF89EA1A5DD72 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */; };
+		B595371F1FE369630063DC58 /* amisDeLaScience.json in Resources */ = {isa = PBXBuildFile; fileRef = B595371E1FE369630063DC58 /* amisDeLaScience.json */; };
 		B59F55131FCB4E3200D00E0C /* TBVFavoris.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */; };
 		B59F55181FCB5C8400D00E0C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B59F55171FCB5C8400D00E0C /* README.md */; };
 		B5BD63B51FCB3477004305B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD63B41FCB3477004305B6 /* AppDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		A638B194AB8E4D0E0BAAE580 /* Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig"; path = "Pods/Target Support Files/Pods-LesAmiesDeLaScienceAvecFavoris/Pods-LesAmiesDeLaScienceAvecFavoris.release.xcconfig"; sourceTree = "<group>"; };
 		A7E249EABB4F859B4EFBF339 /* Pods_LesAmiesDeLaScienceAvecFavoris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LesAmiesDeLaScienceAvecFavoris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B595371E1FE369630063DC58 /* amisDeLaScience.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = amisDeLaScience.json; sourceTree = "<group>"; };
 		B59F55121FCB4E3200D00E0C /* TBVFavoris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBVFavoris.swift; sourceTree = "<group>"; };
 		B59F55171FCB5C8400D00E0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B5BD63B11FCB3477004305B6 /* LesAmiesDeLaScienceAvecFavoris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LesAmiesDeLaScienceAvecFavoris.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				B5BD63E71FCB3549004305B6 /* amisDelaScience.plist */,
+				B595371E1FE369630063DC58 /* amisDeLaScience.json */,
 			);
 			name = "Les données";
 			path = "Les données";
@@ -262,6 +265,7 @@
 				B5BD63D91FCB353E004305B6 /* Christian Huygens.jpg in Resources */,
 				B5BD63DD1FCB353E004305B6 /* Henri Becquerel.jpg in Resources */,
 				B5BD63E01FCB353E004305B6 /* Jean Perrin.jpg in Resources */,
+				B595371F1FE369630063DC58 /* amisDeLaScience.json in Resources */,
 				B5BD63E41FCB353E004305B6 /* Steve Jobs.jpg in Resources */,
 				B5BD63BC1FCB3477004305B6 /* Assets.xcassets in Resources */,
 				B5BD63F21FCB414C004305B6 /* Podfile in Resources */,

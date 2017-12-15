@@ -29,16 +29,16 @@ class VCDetails: UIViewController {
     }
     
     // Propriété pour recevoir les informations de la sélection
-    var informationsDuSavantCourant =  Dictionary<String,String> ()
+    var informationsDuSavantCourant : Savant!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print("# Nous avons reçu les données suivantes:\n\(informationsDuSavantCourant)\n")
  
         
-        savantNom.text      = informationsDuSavantCourant["nom"]!
-        savantImage.image   =  UIImage(named: informationsDuSavantCourant["photo"]!)
-        savantTexte.text    = informationsDuSavantCourant["texte"]!
+        savantNom.text      = informationsDuSavantCourant.nom!
+        savantImage.image   =  UIImage(named: informationsDuSavantCourant.photo!)
+        savantTexte.text    = informationsDuSavantCourant.texte!
         
         
     } // viewDidLoad

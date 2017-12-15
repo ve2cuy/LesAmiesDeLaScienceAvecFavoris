@@ -25,13 +25,15 @@ class Savant: Object, Codable {
     // Étant donné que les info des savants sont dans un dictionnaire,
     // Ce constructeur permet de créer une instance de Savant à partir d'un dictionnaire.
     // ATTENTION: Ce n'est CERTAINEMENT pas le cas pour votre projet!!!!!
-    convenience init(source:Dictionary<String, String>) {
+    convenience init(source:Savant) {
         self.init()
         // self.uid = UUID().uuidString
+        /*
         self.nom = source["nom"] ?? "Erreur sur le nom!"
         self.photo = source["photo"] ?? "n/a"
         self.texte = source["texte"] ?? "n/a"
         self.naissance = source["naissance"] ?? ""
+        */
     }
     
     // Méthodes de classe pour la mise à jour des données dans la BD.

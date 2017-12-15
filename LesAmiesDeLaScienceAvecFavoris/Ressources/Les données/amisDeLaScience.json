@@ -1,0 +1,97 @@
+[
+{   nom:    "Albert Einstein",
+    photo:  "Albert Einstein.jpg",
+    texte:  "Il publie sa théorie de la relativité restreinte en 1905, et une théorie de la gravitation dite relativité générale en 1915.",
+    naissance: "1879"
+},
+
+ {  nom:    "Albert Jacquard",
+    photo:  "Albert Jacquard.jpg",
+    texte:  "Il est connu pour ses engagements citoyens, parmi lesquels la défense du concept de la décroissance soutenable, le soutien aux mouvements du logiciel libre, à la langue internationale espéranto, aux laissés-pour-compte et à l&apos;environnement.",
+    naissance:  "1925"
+},
+
+ {  nom:    "Blaise Pascal",
+    photo:  "Blaise Pascal.jpg",
+    texte:  "Le développement de la théorie des probabilités est la contribution de Pascal la plus importante en mathématiques",
+    naissance:  "1623"
+},
+ 
+{   nom:    "Ferdinand Braun",
+    photo:  "Braun.jpg",
+    texte:  "Le prix Nobel de physique de 1909 lui a été attribué, avec Guglielmo Marconi, pour ses travaux sur la télégraphie sans fil",
+    naissance:  "1850"
+},
+ 
+{   nom:    "Christian Huygens",
+    photo:  "Christian Huygens.jpg",
+    texte:  "Huygens est généralement crédité pour son rôle fondamental dans le développement du calcul moderne.",
+    naissance:  "1629"
+},
+ 
+{   nom:    "Daniel Fahrenheit",
+    photo:  "Daniel Fahrenheit.jpg",
+    texte:  "L&apos;échelle de Farenheit était largement utilisé en Europe jusqu&apos;à la Révolution française. Elle fut graduellement remplacée par l&apos;échelle Celsius mais est encore souvent utilisée dans les pays anglo-saxons, principalement aux États-Unis où elle est l&apos;échelle officielle.",
+    naissance:  "1686"
+},
+ 
+{   nom:    "Dennis Ritchie",
+    photo:  "Dennis Ritchie.jpg",
+    texte:  "Dennis Ritchie est connu comme étant le créateur du langage C, un développeur clé du système d&apos;exploitation Unix, et le coauteur du livre The C Programming Language.",
+    naissance:  "1941"
+},
+ 
+{   nom:    "Galileo Galilei",
+    photo:  "Galilée.jpg",
+    texte:  "Parmi ses réalisations techniques, il a inventé la lunette astronomique, perfectionnement de la découverte hollandaise d&apos;une lunette d&apos;approche, pour procéder à des observations rapides et précoces qui ont bouleversé les fondements de la discipline astronomique.",
+    naissance:  "1564"
+},
+ 
+{   nom:    "Henri Becquerel",
+    photo:  "Henri Becquerel.jpg",
+    texte:  "En 1896, Becquerel découvrit la radioactivité par accident, alors qu&apos;il faisait des recherches sur la fluorescence des sels d&apos;uranium",
+    naissance:  "1852"
+},
+ 
+{   nom:    "Heinrich Hertz",
+    photo:  "Hertz.jpg",
+    texte:  "Heinrich Rudolf Hertz est un ingénieur et physicien allemand renommé pour avoir découvert les ondes hertziennes auxquelles il a donné son nom.",
+    naissance:  "1857"
+},
+
+ {  nom:    "Jean Perrin",
+    photo:  "Jean Perrin.jpg",
+    texte:  "Il a reçu le prix Nobel de physique de 1926 pour ses travaux sur la discontinuité de la matière, et particulièrement pour sa découverte de l&apos;équilibre de sédimentation.",
+    naissance:  "1870"
+},
+ 
+{   nom:    "Karl Guthe Jansky",
+    photo:  "Karl Guthe Jansky.jpg",
+    texte:  "Il découvrit en 1932 que notre Galaxie émettait des ondes radio, marquant ainsi la naissance de la radioastronomie.",
+    naissance:  "1905"
+},
+ 
+{   nom:    "Marie Curie",
+    photo:  "Marie Curie.jpg",
+    texte:  "En 1911, elle obtient le prix Nobel de chimie pour ses travaux sur le polonium et le radium.",
+    naissance:  "1900"
+},
+ 
+{   nom:    "James Clerk Maxwell",
+    photo:  "maxwell.jpg",
+    texte:  "Il est principalement connu pour avoir unifié en un seul ensemble d&apos;équations, les équations de Maxwell, l&apos;électricité, le magnétisme et l&apos;induction, en incluant une importante modification du théorème d&apos;Ampère.",
+    naissance:  "1831"
+},
+ 
+{   nom:    "Steve Jobs",
+    photo:  "Steve Jobs.jpg",
+    texte:  "Steve Jobs est un entrepreneur et inventeur américain, souvent qualifié de visionnaire, et une figure majeure de l&apos;électronique grand public, notamment pionnier de l&apos;avènement de l&apos;ordinateur personnel, du baladeur numérique, du smartphone et de la tablette tactile. ",
+    naissance:  "1955"
+},
+ 
+{   nom:    "Wilhelm Conrad Rontgen",
+    photo:  "Wilhelm Conrad Rontgen.jpg",
+    texte:  "Il a découvert les rayons X, ce qui lui a valu de recevoir le premier prix Nobel de physique en 1901.",
+    naissance:  "1845"
+}
+]
