@@ -24,7 +24,7 @@ class Savant: Object, Codable {
 
     // Étant donné que les info des savants sont dans un dictionnaire,
     // Ce constructeur permet de créer une instance de Savant à partir d'un dictionnaire.
-    
+    // ATTENTION: Ce n'est CERTAINEMENT pas le cas pour votre projet!!!!!
     convenience init(source:Dictionary<String, String>) {
         self.init()
         // self.uid = UUID().uuidString
