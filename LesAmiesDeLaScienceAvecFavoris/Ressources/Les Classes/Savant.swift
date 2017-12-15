@@ -39,7 +39,7 @@ class Savant: Object, Codable {
     static func ajouter(unSavant: Savant) -> Bool {
         let realm = try! Realm()
         // Vérifier si le savant est déjà présent dans la liste des favoris
-        // NOTE, si vous avez tapé 'VotreClasse.nom' à la ligne suivante, c'est vous dormez au gaz.
+        // NOTE, si vous avez tapé 'VotreClasse.nom' à la ligne suivante, c'est que vous dormez au gaz.
         if realm.objects(Savant.self).filter("nom = %@" , unSavant.nom!).count != 0
         { return false }
         
